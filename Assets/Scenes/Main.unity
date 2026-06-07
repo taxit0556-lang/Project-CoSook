@@ -457,8 +457,12 @@ GameObject:
   - component: {fileID: 447046516}
   - component: {fileID: 447046515}
   - component: {fileID: 447046514}
+<<<<<<< HEAD
   - component: {fileID: 447046518}
   m_Layer: 0
+=======
+  m_Layer: 3
+>>>>>>> parent of 97c4c1d (Merge branch 'main' of https://github.com/taxit0556-lang/Project-CoSook)
   m_Name: Fridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,6 +567,7 @@ Transform:
 >>>>>>> 8449f26ddcae02d5fc4b5269b5b46840372128d5
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &447046518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,6 +591,8 @@ MonoBehaviour:
   playerMovement: {fileID: 1371433073}
   fridgeUI: {fileID: 0}
 >>>>>>> 8449f26ddcae02d5fc4b5269b5b46840372128d5
+=======
+>>>>>>> parent of 97c4c1d (Merge branch 'main' of https://github.com/taxit0556-lang/Project-CoSook)
 --- !u!1 &566653859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,7 +1037,6 @@ MonoBehaviour:
     m_Bits: 0
   maxDistance: 0
   boxSizeMultiplier: {x: 0.5, y: 0.5, z: 0.5}
-  canMove: 1
   jumpHeight: 6
   VaultCheck: 0
   isVaulting: 0
