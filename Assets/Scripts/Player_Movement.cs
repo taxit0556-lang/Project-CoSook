@@ -22,6 +22,7 @@ public class Player_Movement : MonoBehaviour
     public float jumpHeight = 6f;
     float velocityY;
     bool isGrounded;
+    public bool canMove = true;
     public bool VaultCheck;
     public bool isVaulting;
     public bool canVault;
@@ -62,6 +63,9 @@ public class Player_Movement : MonoBehaviour
  
     void Update()
     {
+        if (!canMove)
+        return;
+        
         UpdateMouse();
         UpdateMove();
     }
