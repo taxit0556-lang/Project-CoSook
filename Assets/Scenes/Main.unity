@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 447046515}
   - component: {fileID: 447046514}
   - component: {fileID: 447046518}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,17 +575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e81faced837a4904a839c9a4dd8e365, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-<<<<<<< HEAD
-  fridgeViewPoint: {fileID: 433663821}
-  playerCamera: {fileID: 330585545}
-  playerMovement: {fileID: 1371433073}
-  fridgeUI: {fileID: 433663820}
-=======
-  fridgeViewPoint: {fileID: 1421946436}
-  playerCamera: {fileID: 330585545}
-  playerMovement: {fileID: 1371433073}
+  fridgeViewPoint: {fileID: 0}
+  playerCamera: {fileID: 0}
   fridgeUI: {fileID: 0}
->>>>>>> 8449f26ddcae02d5fc4b5269b5b46840372128d5
 --- !u!1 &566653859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,7 +1022,6 @@ MonoBehaviour:
     m_Bits: 0
   maxDistance: 0
   boxSizeMultiplier: {x: 0.5, y: 0.5, z: 0.5}
-  canMove: 1
   jumpHeight: 6
   VaultCheck: 0
   isVaulting: 0
