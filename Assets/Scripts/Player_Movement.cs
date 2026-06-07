@@ -19,6 +19,7 @@ public class Player_Movement : MonoBehaviour
     [SerializeField] private float maxDistance;
     [SerializeField] private Vector3 boxSizeMultiplier = Vector3.one * 0.5f;
  
+    public bool canMove = true;
     public float jumpHeight = 6f;
     float velocityY;
     bool isGrounded;
@@ -62,6 +63,9 @@ public class Player_Movement : MonoBehaviour
  
     void Update()
     {
+        if (!canMove)
+        return;
+
         UpdateMouse();
         UpdateMove();
     }
